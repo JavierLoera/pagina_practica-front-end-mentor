@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="row">
+        <div class="menu" id="menu-hamburger">
+          <img src="img/icon-hamburger.svg" alt="hamburguer" />
+        </div>
+        <section id="section-left">
+          <nav id="nav" class="menu-oculto">
+            <ul>
+              <a><img id="logo" src="img/logo.svg" /></a>
+              <li id="close-menu">
+                <img src="img/icon-close.svg" alt="close-menu" />
+              </li>
+              <li><a href="">home</a></li>
+              <li><a href="">shop</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="imagenes">
+            <picture class="visible">
+              <source
+                media="(min-width:750px)"
+                srcset="img/desktop-image-hero-1.jpg"
+              />
+              <source
+                media="(min-width:500px)"
+                srcset="img/mobile-image-hero-1.jpg"
+              />
+              <img
+                class="img-cabezera"
+                id="img-cabezera1"
+                src="img/desktop-image-hero-1.jpg"
+                alt="fotografia de una sala"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(min-width:750px)"
+                srcset="img/desktop-image-hero-2.jpg"
+              />
+              <source
+                media="(min-width:500px)"
+                srcset="img/mobile-image-hero-2.jpg"
+              />
+
+              <img
+                class="img-cabezera"
+                id="img-cabezera2"
+                src="img/desktop-image-hero-2.jpg"
+                alt="mesa amarilla"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(min-width:750px)"
+                srcset="img/desktop-image-hero-3.jpg"
+              />
+              <source
+                media="(min-width:500px)"
+                srcset="img/mobile-image-hero-3.jpg"
+              />
+
+              <img
+                class="img-cabezera"
+                id="img-cabezera3"
+                src="img/desktop-image-hero-3.jpg"
+                alt="fotografia"
+              />
+            </picture>
+          </div>
+        </section>
+
+        <section id="section-righ">
+          <h1>
+            Discover innovative<br />
+            ways to decorate
+          </h1>
+          <p>
+            we provide unmatched quality, confort and style for property owners
+            across the country. Our experts combine from and function in
+            bringing your vision to life. Create a room in your own style whit
+            our collection and make your property a reflection of you and what
+            you love.
+          </p>
+          <div id="shop_now">
+            <h4>SHOP NOW</h4>
+            <img src="img/icon-arrow.svg" />
+          </div>
+          <div class="contenedor-flechas">
+            <div id="left_img" class="contenedor flecha-left">
+              <img src="img/icon-angle-left.svg" />
+            </div>
+            <div id="right_img" class="contenedor flecha-rigth">
+              <img src="img/icon-angle-right.svg" />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="footer-section">
+        <section id="img_left-footer-sec">
+          <img src="img/image-about-dark.jpg" />
+        </section>
+        <section id="text-footer-sec">
+          <h2>ABOUT OUR FURNITURE</h2>
+          <p>
+            Our multifuncional colllection blends designs and function to suit
+            your individual taste. Make each room unique,or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialist are available to
+            help you create your dream space.
+          </p>
+        </section>
+        <section id="img_right-footer-sec">
+          <img src="img/image-about-light.jpg" />
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
